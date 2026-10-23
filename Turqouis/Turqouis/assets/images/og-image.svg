@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="ogT">
+  <title id="ogT">Schilderwerken Turquoise — Kleur die uw woning laat stralen</title>
+  <defs>
+    <linearGradient id="ogG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd9c8"/>
+      <stop offset="1" stop-color="#0aa596"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <circle cx="1010" cy="290" r="330" fill="#e8faf6"/>
+  <circle cx="1120" cy="90" r="90" fill="none" stroke="#cdf6f0" stroke-width="24"/>
+
+  <!-- logo mark -->
+  <g transform="translate(90 96)">
+    <rect width="104" height="104" rx="28" fill="url(#ogG)"/>
+    <rect x="20" y="27" width="56" height="25" rx="12.5" fill="#ffffff"/>
+    <path d="M76 39.5h11V58H59" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="54" y="57" width="14" height="25" rx="7" fill="#ffffff"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="90" y="292" font-family="Sora, 'Segoe UI', Arial, sans-serif" font-size="27" font-weight="600" letter-spacing="7" fill="#5a6f75">SCHILDERWERKEN</text>
+  <text x="86" y="382" font-family="Sora, 'Segoe UI', Arial, sans-serif" font-size="98" font-weight="800" letter-spacing="-2" fill="#0a222b">Turquoise.</text>
+  <text x="90" y="448" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="33" fill="#5a6f75">Kleur die uw woning laat stralen.</text>
+
+  <!-- service pills -->
+  <g font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#088378">
+    <rect x="90" y="496" width="142" height="54" rx="27" fill="#ebfcf9" stroke="#d3f7f2" stroke-width="2"/>
+    <text x="161" y="531" text-anchor="middle">Binnen</text>
+    <rect x="248" y="496" width="142" height="54" rx="27" fill="#ebfcf9" stroke="#d3f7f2" stroke-width="2"/>
+    <text x="319" y="531" text-anchor="middle">Buiten</text>
+    <rect x="406" y="496" width="162" height="54" rx="27" fill="#ebfcf9" stroke="#d3f7f2" stroke-width="2"/>
+    <text x="487" y="531" text-anchor="middle">Lakwerk</text>
+    <rect x="584" y="496" width="152" height="54" rx="27" fill="#ebfcf9" stroke="#d3f7f2" stroke-width="2"/>
+    <text x="660" y="531" text-anchor="middle">Behang</text>
+  </g>
+
+  <text x="90" y="596" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" fill="#0aa596">www.schilderwerkenturquoise.be</text>
+
+  <!-- right side graphic -->
+  <g transform="translate(950 250) rotate(-8)">
+    <rect x="-95" y="-30" width="190" height="60" rx="30" fill="url(#ogG)"/>
+    <rect x="-80" y="-17" width="160" height="14" rx="7" fill="#ffffff" opacity=".4"/>
+    <path d="M95 0 h44 q22 0 22 22 v92" fill="none" stroke="#123a44" stroke-width="10" stroke-linecap="round"/>
+    <rect x="150" y="112" width="26" height="104" rx="13" fill="#123a44"/>
+  </g>
+  <g transform="translate(990 480)">
+    <rect x="-64" y="-34" width="128" height="88" rx="15" fill="#088378" stroke="#ffffff" stroke-width="5" transform="rotate(-12)"/>
+    <rect x="-52" y="-50" width="128" height="88" rx="15" fill="#0fc2b1" stroke="#ffffff" stroke-width="5" transform="rotate(3)"/>
+    <rect x="-40" y="-66" width="128" height="88" rx="15" fill="#cdf6f0" stroke="#ffffff" stroke-width="5" transform="rotate(16)"/>
+  </g>
+</svg>

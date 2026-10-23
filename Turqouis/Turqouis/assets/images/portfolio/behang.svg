@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="bhT">
+  <title id="bhT">Art-deco designbehang met waaierpatroon</title>
+  <defs>
+    <pattern id="fan" width="140" height="220" patternUnits="userSpaceOnUse">
+      <rect width="140" height="220" fill="#fdfefe"/>
+      <g fill="none" stroke="#0fc2b1">
+        <path d="M0 110 A70 70 0 0 1 140 110" stroke-width="4"/>
+        <path d="M20 110 A50 50 0 0 1 120 110" stroke-width="3"/>
+        <path d="M40 110 A30 30 0 0 1 100 110" stroke-width="2.5"/>
+        <path d="M-70 220 A70 70 0 0 1 70 220" stroke-width="4"/>
+        <path d="M70 220 A70 70 0 0 1 210 220" stroke-width="4"/>
+        <path d="M-40 220 A40 40 0 0 1 40 220" stroke-width="3"/>
+        <path d="M100 220 A40 40 0 0 1 180 220" stroke-width="3"/>
+      </g>
+      <circle cx="70" cy="104" r="4.5" fill="#5fe3d5"/>
+      <circle cx="0" cy="214" r="4.5" fill="#5fe3d5"/>
+      <circle cx="140" cy="214" r="4.5" fill="#5fe3d5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="#f6fbfa"/>
+
+  <!-- wallpapered wall -->
+  <rect x="90" y="70" width="1020" height="540" rx="18" fill="url(#fan)"/>
+  <rect x="90" y="70" width="1020" height="540" rx="18" fill="none" stroke="#ffffff" stroke-width="10"/>
+  <rect x="90" y="70" width="1020" height="540" rx="18" fill="none" stroke="#e2efec" stroke-width="3"/>
+
+  <!-- floor + baseboard -->
+  <rect x="0" y="648" width="1200" height="252" fill="#efe7d9"/>
+  <rect x="0" y="634" width="1200" height="16" fill="#ffffff"/>
+  <path d="M180 664 V900 M460 664 V900 M740 664 V900 M1020 664 V900" stroke="#e0d4be" stroke-width="4"/>
+
+  <!-- console table -->
+  <rect x="170" y="520" width="310" height="18" rx="9" fill="#e9e0d3"/>
+  <rect x="192" y="538" width="14" height="142" fill="#d8c7ab"/>
+  <rect x="444" y="538" width="14" height="142" fill="#d8c7ab"/>
+
+  <!-- vase with branches -->
+  <rect x="252" y="462" width="48" height="58" rx="14" fill="#0fc2b1"/>
+  <rect x="264" y="440" width="24" height="28" rx="9" fill="#0aa596"/>
+  <path d="M276 440 q-30 -52 -64 -66 M276 440 q4 -60 24 -88 M276 440 q34 -46 66 -54" fill="none" stroke="#123a44" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="212" cy="374" r="7" fill="#5fe3d5"/>
+  <circle cx="300" cy="352" r="7" fill="#5fe3d5"/>
+  <circle cx="342" cy="386" r="7" fill="#5fe3d5"/>
+
+  <!-- paste brush on table -->
+  <g transform="translate(360 496) rotate(-6)">
+    <rect x="0" y="4" width="72" height="13" rx="6.5" fill="#d8a55a"/>
+    <rect x="66" y="0" width="34" height="22" rx="6" fill="#b8c4c6"/>
+    <rect x="96" y="2" width="18" height="18" rx="4" fill="#0aa596"/>
+  </g>
+
+  <!-- wallpaper roll leaning on the wall -->
+  <g transform="translate(950 372) rotate(14)">
+    <rect x="0" y="0" width="76" height="300" rx="36" fill="#ffffff" stroke="#e2efec" stroke-width="4"/>
+    <rect x="10" y="16" width="56" height="268" rx="26" fill="url(#fan)" stroke="#d3f7f2" stroke-width="3"/>
+    <ellipse cx="38" cy="10" rx="30" ry="9" fill="#d3f7f2"/>
+  </g>
+
+  <!-- unrolled sheet on the floor -->
+  <path d="M972 690 C950 748 880 772 792 768 C858 752 904 724 928 684 Z" fill="url(#fan)" stroke="#e2efec" stroke-width="3"/>
+
+  <!-- sparkles -->
+  <path d="M0 -14 L3.5 -3.5 L14 0 L3.5 3.5 L0 14 L-3.5 3.5 L-14 0 L-3.5 -3.5 Z" transform="translate(620 660)" fill="#5fe3d5"/>
+  <path d="M0 -14 L3.5 -3.5 L14 0 L3.5 3.5 L0 14 L-3.5 3.5 L-14 0 L-3.5 -3.5 Z" transform="translate(1130 640) scale(.7)" fill="#0fc2b1"/>
+</svg>

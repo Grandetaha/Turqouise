@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="gvT">
+  <title id="gvT">Vers geschilderde gevel met turquoise voordeur</title>
+
+  <!-- sky -->
+  <rect width="1200" height="900" fill="#eafaf7"/>
+  <g fill="#ffffff">
+    <ellipse cx="220" cy="140" rx="90" ry="34"/>
+    <ellipse cx="300" cy="120" rx="70" ry="28"/>
+    <ellipse cx="940" cy="180" rx="80" ry="30"/>
+    <ellipse cx="1010" cy="162" rx="56" ry="22"/>
+  </g>
+  <circle cx="1040" cy="90" r="52" fill="#d3f7f2"/>
+
+  <!-- ground -->
+  <rect x="0" y="700" width="1200" height="200" fill="#e8e2d6"/>
+  <path d="M0 742 h1200 M0 800 h1200" stroke="#d9d1c1" stroke-width="4"/>
+  <path d="M420 700 l-60 200 M620 700 l60 200" stroke="#d9d1c1" stroke-width="4"/>
+
+  <!-- house -->
+  <rect x="300" y="240" width="600" height="460" fill="#ffffff" stroke="#e2efec" stroke-width="5"/>
+  <path d="M262 240 L600 92 L938 240 Z" fill="#123a44"/>
+  <rect x="700" y="110" width="56" height="80" fill="#123a44"/>
+  <rect x="694" y="102" width="68" height="16" rx="6" fill="#0a222b"/>
+
+  <!-- fresh paint shine -->
+  <ellipse cx="430" cy="330" rx="150" ry="70" fill="#ffffff" opacity=".55"/>
+
+  <!-- windows -->
+  <g stroke="#0fc2b1" stroke-width="9" fill="#cfeeea">
+    <rect x="360" y="300" width="120" height="150" rx="6"/>
+    <rect x="540" y="300" width="120" height="150" rx="6"/>
+    <rect x="720" y="300" width="120" height="150" rx="6"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="6">
+    <path d="M420 300 v150 M360 375 h120"/>
+    <path d="M600 300 v150 M540 375 h120"/>
+    <path d="M780 300 v150 M720 375 h120"/>
+  </g>
+  <g fill="#d3f7f2">
+    <rect x="336" y="306" width="18" height="138" rx="6"/>
+    <rect x="486" y="306" width="18" height="138" rx="6"/>
+    <rect x="696" y="306" width="18" height="138" rx="6"/>
+  </g>
+
+  <!-- door -->
+  <path d="M560 700 V520 a55 55 0 0 1 110 0 V700 Z" fill="#0aa596"/>
+  <path d="M574 700 V524 a41 41 0 0 1 82 0 V700 Z" fill="#0fc2b1"/>
+  <circle cx="648" cy="610" r="7" fill="#ffffff"/>
+  <rect x="596" y="556" width="38" height="9" rx="4.5" fill="#ffffff" opacity=".7"/>
+  <rect x="540" y="700" width="150" height="18" rx="6" fill="#d9d1c1"/>
+
+  <!-- ladder -->
+  <g transform="translate(912 400) rotate(7)">
+    <rect x="0" y="0" width="12" height="320" rx="6" fill="#123a44"/>
+    <rect x="76" y="0" width="12" height="320" rx="6" fill="#123a44"/>
+    <rect x="12" y="46" width="64" height="9" rx="4.5" fill="#2a5560"/>
+    <rect x="12" y="126" width="64" height="9" rx="4.5" fill="#2a5560"/>
+    <rect x="12" y="206" width="64" height="9" rx="4.5" fill="#2a5560"/>
+  </g>
+  <path d="M880 726 h120 l-18 44 h-84 Z" fill="#123a44"/>
+  <rect x="898" y="734" width="84" height="14" rx="6" fill="#0fc2b1"/>
+
+  <!-- bushes -->
+  <g>
+    <circle cx="220" cy="680" r="52" fill="#9fe9df"/>
+    <circle cx="272" cy="692" r="38" fill="#5fe3d5"/>
+    <circle cx="180" cy="700" r="30" fill="#0fc2b1"/>
+    <circle cx="1060" cy="694" r="42" fill="#9fe9df"/>
+    <circle cx="1108" cy="704" r="28" fill="#0fc2b1"/>
+  </g>
+</svg>

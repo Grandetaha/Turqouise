@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" role="img" aria-labelledby="heroT heroD">
+  <title id="heroT">Wand wordt turquoise geschilderd</title>
+  <desc id="heroD">Een verfroller brengt een frisse turquoise verflaag aan op een wand, naast een verfpot, kwast en kleurstalen.</desc>
+  <defs>
+    <linearGradient id="gPaint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd9c8"/>
+      <stop offset="1" stop-color="#0aa596"/>
+    </linearGradient>
+    <linearGradient id="gRoller" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fe3d5"/>
+      <stop offset="1" stop-color="#0fc2b1"/>
+    </linearGradient>
+    <clipPath id="arch">
+      <path d="M180 856 V430 A280 300 0 0 1 740 430 V856 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="980" fill="#f6fbfa"/>
+  <ellipse cx="620" cy="500" rx="565" ry="445" fill="#e8faf6"/>
+  <circle cx="948" cy="150" r="92" fill="none" stroke="#cdf6f0" stroke-width="26"/>
+  <circle cx="112" cy="196" r="10" fill="#b9f2ea"/>
+  <circle cx="1064" cy="472" r="13" fill="#d3f7f2"/>
+  <circle cx="150" cy="620" r="8" fill="#5fe3d5"/>
+
+  <!-- floor -->
+  <rect x="0" y="860" width="1200" height="120" fill="#f2ede2"/>
+  <rect x="0" y="856" width="1200" height="6" fill="#e4dcc9"/>
+
+  <!-- arched wall, half painted -->
+  <path d="M180 856 V430 A280 300 0 0 1 740 430 V856 Z" fill="#edf1f0"/>
+  <g clip-path="url(#arch)">
+    <path d="M520 120 C478 236 560 332 514 432 C468 532 556 640 512 740 C496 798 506 830 500 870 L790 870 L790 120 Z" fill="url(#gPaint)"/>
+    <rect x="560" y="140" width="26" height="720" rx="13" fill="#ffffff" opacity=".16"/>
+    <rect x="624" y="130" width="15" height="730" rx="7.5" fill="#ffffff" opacity=".13"/>
+    <rect x="688" y="140" width="22" height="720" rx="11" fill="#088378" opacity=".15"/>
+    <path d="M516 566 q-5 30 7 40 q12 -10 5 -40 Z" fill="#0aa596"/>
+    <path d="M540 690 q-4 22 6 30 q10 -8 4 -30 Z" fill="#0aa596"/>
+  </g>
+  <path d="M180 856 V430 A280 300 0 0 1 740 430 V856" fill="none" stroke="#d8e9e5" stroke-width="6"/>
+
+  <!-- paint roller -->
+  <g transform="translate(508 462) rotate(-10)">
+    <rect x="-102" y="-32" width="204" height="64" rx="32" fill="url(#gRoller)"/>
+    <rect x="-88" y="-19" width="176" height="15" rx="7.5" fill="#ffffff" opacity=".4"/>
+    <path d="M102 0 H150 q24 0 24 24 V118" fill="none" stroke="#123a44" stroke-width="10" stroke-linecap="round"/>
+    <rect x="161" y="116" width="27" height="112" rx="13.5" fill="#123a44"/>
+    <rect x="161" y="130" width="27" height="8" fill="#0fc2b1"/>
+  </g>
+
+  <!-- drop cloth -->
+  <rect x="118" y="818" width="330" height="52" rx="26" fill="#ffffff" stroke="#d8e9e5" stroke-width="4"/>
+  <path d="M170 844 h120 M330 844 h70" stroke="#e2efec" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- paint bucket -->
+  <ellipse cx="880" cy="858" rx="128" ry="18" fill="#0a222b" opacity=".08"/>
+  <path d="M770 690 H990 L968 852 H792 Z" fill="#ffffff" stroke="#d8e9e5" stroke-width="5"/>
+  <ellipse cx="880" cy="690" rx="110" ry="22" fill="#0fc2b1"/>
+  <ellipse cx="880" cy="690" rx="82" ry="14" fill="#0aa596"/>
+  <path d="M770 690 Q880 592 990 690" fill="none" stroke="#123a44" stroke-width="8" stroke-linecap="round"/>
+  <path d="M912 714 q3 34 -9 44 q-14 -10 -6 -44 Z" fill="#0fc2b1"/>
+  <rect x="806" y="744" width="148" height="64" rx="12" fill="#d3f7f2"/>
+  <path d="M806 786 q37 -22 74 0 t74 0 v22 H806 Z" fill="#0fc2b1" opacity=".85"/>
+
+  <!-- brush leaning on bucket -->
+  <g transform="translate(994 586) rotate(22)">
+    <rect x="-11" y="0" width="22" height="118" rx="11" fill="#d8a55a"/>
+    <rect x="-16" y="110" width="32" height="26" rx="6" fill="#b8c4c6"/>
+    <path d="M-16 136 h32 v36 q-16 13 -32 0 Z" fill="#0aa596"/>
+  </g>
+
+  <!-- colour swatches -->
+  <g transform="translate(950 300)">
+    <rect x="-72" y="-38" width="144" height="98" rx="16" fill="#088378" stroke="#ffffff" stroke-width="5" transform="rotate(-13)"/>
+    <rect x="-58" y="-56" width="144" height="98" rx="16" fill="#0fc2b1" stroke="#ffffff" stroke-width="5" transform="rotate(2)"/>
+    <rect x="-44" y="-74" width="144" height="98" rx="16" fill="#cdf6f0" stroke="#ffffff" stroke-width="5" transform="rotate(15)"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(268 148)" fill="#5fe3d5"/>
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(836 120) scale(.7)" fill="#0fc2b1"/>
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(1066 660) scale(.85)" fill="#b9f2ea"/>
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(140 420) scale(.6)" fill="#cdf6f0"/>
+</svg>

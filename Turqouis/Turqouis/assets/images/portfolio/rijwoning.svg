@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="rwT">
+  <title id="rwT">Rijwoningen met trapgevels, middelste gevel fris turquoise</title>
+
+  <!-- sky -->
+  <rect width="1200" height="900" fill="#eafaf7"/>
+  <g fill="#ffffff">
+    <ellipse cx="200" cy="130" rx="86" ry="32"/>
+    <ellipse cx="276" cy="112" rx="62" ry="24"/>
+    <ellipse cx="980" cy="160" rx="74" ry="28"/>
+  </g>
+  <circle cx="1080" cy="84" r="46" fill="#d3f7f2"/>
+
+  <!-- street -->
+  <rect x="0" y="700" width="1200" height="200" fill="#dfe4e1"/>
+  <path d="M0 752 h1200 M0 812 h1200 M0 866 h1200" stroke="#ccd3cf" stroke-width="4"/>
+  <path d="M180 700 l-40 200 M420 700 l-16 200 M660 700 l16 200 M900 700 l40 200" stroke="#ccd3cf" stroke-width="4"/>
+
+  <!-- house left (white) -->
+  <g>
+    <path d="M120 320 V284 H150 V248 H180 V212 H210 V176 H300 V212 H330 V248 H360 V284 H390 V320 Z" fill="#fdfdfd" stroke="#e2efec" stroke-width="4"/>
+    <rect x="120" y="320" width="300" height="380" fill="#fdfdfd" stroke="#e2efec" stroke-width="4"/>
+    <rect x="232" y="192" width="46" height="46" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="168" y="366" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="308" y="366" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="168" y="500" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="308" y="500" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <path d="M238 700 V606 a32 32 0 0 1 64 0 V700 Z" fill="#123a44"/>
+    <rect x="150" y="120" width="40" height="62" fill="#d8dee0"/>
+  </g>
+
+  <!-- house right (soft grey) -->
+  <g>
+    <path d="M640 320 V284 H670 V248 H700 V212 H730 V176 H820 V212 H850 V248 H880 V284 H910 V320 Z" fill="#eef1f0" stroke="#dde7e4" stroke-width="4"/>
+    <rect x="640" y="320" width="300" height="380" fill="#eef1f0" stroke="#dde7e4" stroke-width="4"/>
+    <rect x="752" y="192" width="46" height="46" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="688" y="366" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="828" y="366" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="688" y="500" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <rect x="828" y="500" width="64" height="84" rx="8" fill="#cfeeea" stroke="#ffffff" stroke-width="5"/>
+    <path d="M758 700 V606 a32 32 0 0 1 64 0 V700 Z" fill="#0aa596"/>
+    <rect x="856" y="120" width="40" height="62" fill="#c9d2cf"/>
+  </g>
+
+  <!-- house middle (fresh turquoise) -->
+  <g>
+    <path d="M380 320 V284 H410 V248 H440 V212 H470 V176 H560 V212 H590 V248 H620 V284 H650 V320 Z" fill="#0fc2b1" stroke="#0aa596" stroke-width="4"/>
+    <rect x="380" y="320" width="300" height="380" fill="#0fc2b1" stroke="#0aa596" stroke-width="4"/>
+    <rect x="492" y="192" width="46" height="46" rx="8" fill="#d3f7f2" stroke="#ffffff" stroke-width="5"/>
+    <rect x="428" y="366" width="64" height="84" rx="8" fill="#bfe9e4" stroke="#ffffff" stroke-width="6"/>
+    <rect x="568" y="366" width="64" height="84" rx="8" fill="#bfe9e4" stroke="#ffffff" stroke-width="6"/>
+    <rect x="428" y="500" width="64" height="84" rx="8" fill="#bfe9e4" stroke="#ffffff" stroke-width="6"/>
+    <rect x="568" y="500" width="64" height="84" rx="8" fill="#bfe9e4" stroke="#ffffff" stroke-width="6"/>
+    <path d="M498 700 V606 a32 32 0 0 1 64 0 V700 Z" fill="#ffffff"/>
+    <circle cx="552" cy="652" r="6" fill="#0aa596"/>
+    <!-- wet paint shine -->
+    <ellipse cx="470" cy="252" rx="66" ry="30" fill="#ffffff" opacity=".35"/>
+    <ellipse cx="600" cy="420" rx="40" ry="20" fill="#ffffff" opacity=".25"/>
+  </g>
+
+  <!-- trees -->
+  <rect x="52" y="612" width="14" height="92" rx="6" fill="#8a6f4d"/>
+  <circle cx="59" cy="576" r="46" fill="#9fe9df"/>
+  <circle cx="34" cy="600" r="26" fill="#5fe3d5"/>
+  <rect x="1066" y="622" width="14" height="82" rx="6" fill="#8a6f4d"/>
+  <circle cx="1073" cy="590" r="40" fill="#9fe9df"/>
+  <circle cx="1096" cy="612" r="24" fill="#0fc2b1"/>
+</svg>

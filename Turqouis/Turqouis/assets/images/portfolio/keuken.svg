@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="kkT">
+  <title id="kkT">Keuken met turquoise gelakte kasten</title>
+  <defs>
+    <pattern id="tiles" width="64" height="44" patternUnits="userSpaceOnUse">
+      <rect width="64" height="44" fill="#eef7f5"/>
+      <path d="M0 0 H64 M0 44 H64 M0 0 V44 M64 0 V44" stroke="#d8ece8" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="900" fill="#f7fbfa"/>
+
+  <!-- backsplash -->
+  <rect x="160" y="320" width="880" height="170" fill="url(#tiles)"/>
+
+  <!-- upper cabinets -->
+  <g fill="#ffffff" stroke="#e2efec" stroke-width="4">
+    <rect x="180" y="110" width="210" height="170" rx="12"/>
+    <rect x="420" y="110" width="210" height="170" rx="12"/>
+    <rect x="660" y="110" width="210" height="170" rx="12"/>
+  </g>
+  <g fill="#0fc2b1">
+    <rect x="368" y="186" width="10" height="28" rx="5"/>
+    <rect x="608" y="186" width="10" height="28" rx="5"/>
+    <rect x="848" y="186" width="10" height="28" rx="5"/>
+  </g>
+  <rect x="180" y="284" width="690" height="10" rx="5" fill="#d3f7f2"/>
+
+  <!-- open shelf with jars -->
+  <rect x="900" y="196" width="150" height="12" rx="6" fill="#e9e0d3"/>
+  <rect x="916" y="140" width="34" height="56" rx="8" fill="#d3f7f2" stroke="#ffffff" stroke-width="3"/>
+  <rect x="962" y="152" width="34" height="44" rx="8" fill="#5fe3d5" stroke="#ffffff" stroke-width="3"/>
+  <rect x="1008" y="128" width="30" height="68" rx="8" fill="#0aa596" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- countertop -->
+  <rect x="150" y="490" width="900" height="26" rx="10" fill="#e9e0d3"/>
+
+  <!-- lower cabinets (lakwerk) -->
+  <rect x="150" y="516" width="900" height="212" fill="#0fc2b1"/>
+  <path d="M300 516 V728 M450 516 V728 M600 516 V728 M750 516 V728 M900 516 V728" stroke="#0aa596" stroke-width="5"/>
+  <g fill="#ffffff">
+    <rect x="212" y="546" width="26" height="8" rx="4"/>
+    <rect x="362" y="546" width="26" height="8" rx="4"/>
+    <rect x="512" y="546" width="26" height="8" rx="4"/>
+    <rect x="662" y="546" width="26" height="8" rx="4"/>
+    <rect x="812" y="546" width="26" height="8" rx="4"/>
+    <rect x="962" y="546" width="26" height="8" rx="4"/>
+  </g>
+  <rect x="150" y="712" width="900" height="16" fill="#088378"/>
+
+  <!-- sink + faucet -->
+  <ellipse cx="600" cy="503" rx="64" ry="10" fill="#c9bda6"/>
+  <path d="M566 452 v-22 a26 26 0 0 1 52 0 v10" fill="none" stroke="#123a44" stroke-width="9" stroke-linecap="round"/>
+  <rect x="558" y="446" width="16" height="48" rx="8" fill="#123a44"/>
+
+  <!-- cooktop -->
+  <g fill="#123a44">
+    <rect x="830" y="478" width="150" height="14" rx="7"/>
+    <circle cx="868" cy="485" r="14" fill="none" stroke="#123a44" stroke-width="4"/>
+    <circle cx="942" cy="485" r="10" fill="none" stroke="#123a44" stroke-width="4"/>
+  </g>
+
+  <!-- fruit bowl -->
+  <path d="M250 470 a46 24 0 0 0 92 0 Z" fill="#ffffff" stroke="#e2efec" stroke-width="4"/>
+  <circle cx="272" cy="458" r="13" fill="#ffd166"/>
+  <circle cx="296" cy="452" r="13" fill="#ffd166"/>
+  <circle cx="318" cy="460" r="12" fill="#5fe3d5"/>
+
+  <!-- pendant lights -->
+  <path d="M330 0 V120 M560 0 V96" stroke="#123a44" stroke-width="5"/>
+  <path d="M296 152 a34 34 0 0 1 68 0 Z" fill="#123a44"/>
+  <circle cx="330" cy="160" r="9" fill="#5fe3d5"/>
+  <path d="M526 128 a34 34 0 0 1 68 0 Z" fill="#123a44"/>
+  <circle cx="560" cy="136" r="9" fill="#5fe3d5"/>
+
+  <!-- floor -->
+  <rect x="0" y="728" width="1200" height="172" fill="#efe7d9"/>
+  <path d="M0 786 h1200 M0 844 h1200 M200 728 V900 M480 728 V900 M760 728 V900 M1040 728 V900" stroke="#e0d4be" stroke-width="4"/>
+</svg>

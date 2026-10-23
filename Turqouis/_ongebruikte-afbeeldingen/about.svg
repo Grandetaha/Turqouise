@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="aboutT aboutD">
+  <title id="aboutT">Schildersmateriaal van Turquoise</title>
+  <desc id="aboutD">Ladder, verfpotten, kwasten, rollerbak en een waaier van turquoise kleurstalen.</desc>
+
+  <rect width="1200" height="900" fill="#eaf8f5"/>
+  <circle cx="600" cy="425" r="330" fill="#dcf5f0"/>
+
+  <!-- floor -->
+  <rect x="0" y="690" width="1200" height="210" fill="#f0e8d8"/>
+  <rect x="0" y="676" width="1200" height="16" fill="#ffffff"/>
+
+  <!-- ladder -->
+  <g transform="translate(322 158) rotate(9)">
+    <rect x="0" y="0" width="16" height="560" rx="8" fill="#123a44"/>
+    <rect x="148" y="0" width="16" height="560" rx="8" fill="#123a44"/>
+    <rect x="16" y="66" width="132" height="12" rx="6" fill="#2a5560"/>
+    <rect x="16" y="156" width="132" height="12" rx="6" fill="#2a5560"/>
+    <rect x="16" y="246" width="132" height="12" rx="6" fill="#2a5560"/>
+    <rect x="16" y="336" width="132" height="12" rx="6" fill="#2a5560"/>
+    <rect x="16" y="426" width="132" height="12" rx="6" fill="#2a5560"/>
+  </g>
+
+  <!-- big paint can -->
+  <g transform="translate(586 448)">
+    <path d="M4 42 Q88 -22 172 42" fill="none" stroke="#7a8f92" stroke-width="7" stroke-linecap="round"/>
+    <rect x="0" y="40" width="176" height="172" rx="14" fill="#ffffff" stroke="#d8e9e5" stroke-width="5"/>
+    <ellipse cx="88" cy="42" rx="88" ry="16" fill="#0fc2b1"/>
+    <ellipse cx="88" cy="42" rx="66" ry="10" fill="#0aa596"/>
+    <path d="M156 66 q4 34 -8 46 q-14 -12 -6 -46 Z" fill="#0fc2b1"/>
+    <rect x="26" y="96" width="124" height="80" rx="10" fill="#d3f7f2"/>
+    <path d="M26 146 q31 -22 62 0 t62 0 v30 H26 Z" fill="#0fc2b1" opacity=".85"/>
+  </g>
+
+  <!-- small paint can -->
+  <g transform="translate(812 566)">
+    <rect x="0" y="30" width="124" height="118" rx="12" fill="#ffffff" stroke="#d8e9e5" stroke-width="5"/>
+    <ellipse cx="62" cy="30" rx="62" ry="12" fill="#5fe3d5"/>
+    <ellipse cx="62" cy="30" rx="46" ry="8" fill="#0fc2b1"/>
+    <rect x="20" y="66" width="84" height="52" rx="9" fill="#d3f7f2"/>
+    <path d="M20 100 q21 -14 42 0 t42 0 v18 H20 Z" fill="#0aa596" opacity=".85"/>
+  </g>
+
+  <!-- roller tray -->
+  <g transform="translate(880 726)">
+    <path d="M0 0 h216 l-28 64 H28 Z" fill="#123a44"/>
+    <rect x="30" y="12" width="156" height="22" rx="9" fill="#0fc2b1"/>
+    <ellipse cx="108" cy="66" rx="104" ry="12" fill="#0a222b" opacity=".08"/>
+  </g>
+
+  <!-- brush cup -->
+  <g transform="translate(196 552)">
+    <g transform="rotate(-14 34 40)">
+      <rect x="28" y="-58" width="13" height="98" rx="6.5" fill="#d8a55a"/>
+      <rect x="23" y="-80" width="23" height="26" rx="6" fill="#0aa596"/>
+    </g>
+    <g transform="rotate(4 62 40)">
+      <rect x="56" y="-66" width="13" height="106" rx="6.5" fill="#d8a55a"/>
+      <rect x="51" y="-90" width="23" height="28" rx="6" fill="#5fe3d5"/>
+    </g>
+    <g transform="rotate(17 90 40)">
+      <rect x="84" y="-54" width="13" height="94" rx="6.5" fill="#d8a55a"/>
+      <rect x="79" y="-76" width="23" height="26" rx="6" fill="#123a44"/>
+    </g>
+    <path d="M0 30 h122 l-15 104 H15 Z" fill="#ffffff" stroke="#d8e9e5" stroke-width="5"/>
+    <path d="M0 30 h122 l-3 22 H3 Z" fill="#d3f7f2"/>
+  </g>
+
+  <!-- swatch fan -->
+  <g transform="translate(920 300)">
+    <rect x="0" y="0" width="112" height="74" rx="13" fill="#088378" stroke="#ffffff" stroke-width="4" transform="rotate(-30 56 160)"/>
+    <rect x="0" y="0" width="112" height="74" rx="13" fill="#0aa596" stroke="#ffffff" stroke-width="4" transform="rotate(-15 56 160)"/>
+    <rect x="0" y="0" width="112" height="74" rx="13" fill="#0fc2b1" stroke="#ffffff" stroke-width="4"/>
+    <rect x="0" y="0" width="112" height="74" rx="13" fill="#5fe3d5" stroke="#ffffff" stroke-width="4" transform="rotate(15 56 160)"/>
+    <rect x="0" y="0" width="112" height="74" rx="13" fill="#cdf6f0" stroke="#ffffff" stroke-width="4" transform="rotate(30 56 160)"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(160 180)" fill="#5fe3d5"/>
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(1058 160) scale(.75)" fill="#0fc2b1"/>
+  <path d="M0 -16 L4 -4 L16 0 L4 4 L0 16 L-4 4 L-16 0 L-4 -4 Z" transform="translate(1104 620) scale(.6)" fill="#b9f2ea"/>
+  <circle cx="120" cy="420" r="9" fill="#cdf6f0"/>
+  <circle cx="520" cy="120" r="11" fill="#d3f7f2"/>
+</svg>

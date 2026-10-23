@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="trT">
+  <title id="trT">Wit geschilderde trap met turquoise loper</title>
+
+  <rect width="1200" height="900" fill="#f6fbfa"/>
+
+  <!-- framed art following the stairs -->
+  <g transform="translate(296 296) rotate(-26)">
+    <rect width="112" height="142" rx="8" fill="#ffffff"/>
+    <rect x="14" y="14" width="84" height="114" fill="#d3f7f2"/>
+    <path d="M14 104 l28 -38 l22 24 l16 -16 l18 30 Z" fill="#0aa596"/>
+  </g>
+  <g transform="translate(528 158) rotate(-26)">
+    <rect width="92" height="116" rx="8" fill="#ffffff"/>
+    <rect x="12" y="12" width="68" height="92" fill="#ebfcf9"/>
+    <circle cx="46" cy="46" r="16" fill="#5fe3d5"/>
+    <path d="M12 88 q17 -22 34 -6 q17 14 34 -8 v30 H12 Z" fill="#0fc2b1"/>
+  </g>
+
+  <!-- staircase body -->
+  <path d="M180 700 H310 V620 H440 V540 H570 V460 H700 V380 H830 V300 H960 V220 H1090 V700 Z"
+        fill="#ffffff" stroke="#e2efec" stroke-width="5"/>
+
+  <!-- wooden treads -->
+  <path d="M180 700 H310 M310 620 H440 M440 540 H570 M570 460 H700 M700 380 H830 M830 300 H960 M960 220 H1090"
+        fill="none" stroke="#d8c7ab" stroke-width="12"/>
+
+  <!-- turquoise runner -->
+  <path d="M240 696 H316 V614 H446 V534 H576 V454 H706 V374 H836 V294 H966 V214 H1066"
+        fill="none" stroke="#0fc2b1" stroke-width="46" stroke-linejoin="round" opacity=".92"/>
+
+  <!-- handrail + balusters -->
+  <path d="M170 555 L1100 95" fill="none" stroke="#123a44" stroke-width="13" stroke-linecap="round"/>
+  <g stroke="#123a44" stroke-width="7">
+    <path d="M310 620 V486"/>
+    <path d="M440 540 V421"/>
+    <path d="M570 460 V357"/>
+    <path d="M700 380 V293"/>
+    <path d="M830 300 V229"/>
+    <path d="M960 220 V164"/>
+  </g>
+  <path d="M170 555 V700" stroke="#123a44" stroke-width="9"/>
+  <circle cx="170" cy="551" r="13" fill="#123a44"/>
+
+  <!-- plant -->
+  <path d="M84 620 h84 l-13 84 h-58 Z" fill="#0aa596"/>
+  <ellipse cx="102" cy="566" rx="16" ry="52" fill="#0fc2b1" transform="rotate(-16 102 566)"/>
+  <ellipse cx="136" cy="556" rx="14" ry="58" fill="#5fe3d5" transform="rotate(12 136 556)"/>
+  <ellipse cx="60" cy="576" rx="12" ry="40" fill="#088378" transform="rotate(-34 60 576)"/>
+
+  <!-- floor -->
+  <rect x="0" y="700" width="1200" height="200" fill="#efe7d9"/>
+  <path d="M0 756 h1200 M0 824 h1200 M240 700 V900 M560 700 V900 M880 700 V900" stroke="#e0d4be" stroke-width="4"/>
+</svg>
